@@ -1,0 +1,12 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}Prototype{% endblock title %}
+{% block body %}
+    <div class='jumbotron'>
+        <h1>Prototype</h1>
+        <h2>{% block header %}{% endblock header %}</h2>
+        {% block body2 %} 
+        {% endblock body2 %}
+    </div>
+{% endblock body %}
+<footer>{% block footer %}{% endblock footer %}
+</footer>
