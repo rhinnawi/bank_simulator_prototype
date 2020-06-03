@@ -1,10 +1,10 @@
 from flask import Flask, render_template
-from flask_bootstrap import Bootstrap
+#from flask_bootstrap import Bootstrap
 from flask_mysqldb import MySQL
 import yaml
 
 app = Flask(__name__)
-Bootstrap(app)
+#Bootstrap(app)
 
 # Configure db using settings in db.yaml file
 db = yaml.load(open('db.yaml'))
